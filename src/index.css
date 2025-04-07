@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #06A3DA;
+  --color-secondary: #F57E57;
+  --color-light: #EEF9FF;
+  --color-dark: #091E3E;
+  --animate-fade-in-up: fadeInUp 0.5s ease-out forwards;
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
